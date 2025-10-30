@@ -10,11 +10,12 @@ $menu = [
     new Articulo("Pizza Margarita", 10.00, false, "Principal"), // No disponible
     new Articulo("Spaghetti Boloñesa", 11.00, true, "Principal"),
     new Articulo("Sopa de Tomate", 7.00, false, "Entrante"), // No disponible
-    new Bebida("Coca-Cola", 2.50, true, "Bebida", "Mediano"),
-    new Bebida("Café", 1.50, true, "Bebida", "Pequeño"),
-    new Bebida("Té Helado", 2.00, false, "Bebida", "Grande"), // No disponible
-    new Bebida("Jugo de Naranja", 3.00, false, "Bebida", "Mediano") // No disponible
+    new Bebida("Coca-Cola", 2.50, true, "Bebida", "Mediano", "Fría"),
+    new Bebida("Café", 1.50, true, "Bebida", "Pequeño", "Caliente"),
+    new Bebida("Té Helado", 2.00, false, "Bebida", "Grande", "Fría"), // No disponible
+    new Bebida("Jugo de Naranja", 3.00, false, "Bebida", "Mediano", "Fría") // No disponible
 ];
+
 
 $ubicaciones = [
     "Centro" => [
