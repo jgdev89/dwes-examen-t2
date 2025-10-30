@@ -1,7 +1,7 @@
 <?php
 // Clase Bebida que hereda de Artículo
 
-require_once 'Articulo.php';
+require 'Articulo.php';
 
 class Bebida extends Articulo {
     public $tamanio;
@@ -10,4 +10,6 @@ class Bebida extends Articulo {
         parent::__construct($nombre, $precio, $disponibilidad, $categoria);
         $this->tamanio = $tamanio;
     }
+
+    //De igual manera que en Articulo, no es necesario getters y setters al ser atributos públicos
 }

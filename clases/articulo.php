@@ -15,4 +15,6 @@ class Articulo
         $this->disponibilidad = $disponibilidad;
         $this->categoria = $categoria;
     }
+
+    //No es necesario getters y setters en este caso, al ser atributos públicos
 }
