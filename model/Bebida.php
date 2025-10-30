@@ -10,4 +10,6 @@ class Bebida extends Articulo {
         $this->tamanio = $tamanio;
         $this->temperatura = $temperatura;
     }
+
+    // No es necesario getters y setters al ser atributos públicos
 }

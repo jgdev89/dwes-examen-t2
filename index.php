@@ -1,7 +1,7 @@
 <?php
 // Importar las clases
-require 'Articulo.php';
-require 'Bebida.php';
+require 'model/Articulo.php';
+require 'model/Bebida.php';
 
 // Array asociativo del menú
 $menu = [
